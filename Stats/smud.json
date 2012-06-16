@@ -1,0 +1,3008 @@
+{
+    "smud_bills": [
+        {
+            "billing_date": "1/12/05",
+            "days": 31,
+            "total": 159.27,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.07378
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.12995
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 553,
+                    "rate": 0.14231
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.78
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.41
+                }
+            ]
+        },
+        {
+            "billing_date": "2/11/05",
+            "days": 32,
+            "total": 121.18,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.07378
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.12995
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 293,
+                    "rate": 0.14231
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.85
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.25
+                }
+            ]
+        },
+        {
+            "billing_date": "3/15/05",
+            "days": 30,
+            "total": 96.19,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.07378
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.12995
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 122,
+                    "rate": 0.14231
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.24
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.21
+                }
+            ]
+        },
+        {
+            "billing_date": "4/13/05",
+            "days": 29,
+            "total": 82.46,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 406,
+                    "rate": 0.07378
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 214,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 70,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 135,
+                    "rate": 0.12995
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 8,
+                    "rate": 0.14231
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 5,
+                    "rate": 0.1537
+                }
+
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 0.91
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.18
+                }
+            ]
+        },
+        {
+            "billing_date": "5/12/05",
+            "days": 31,
+            "total": 97.63,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 203,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 61,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 440,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 145,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 57,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.28
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.20
+                }
+            ]
+        },
+        {
+            "billing_date": "6/13/05",
+            "days": 30,
+            "total": 107.37,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 265,
+                    "rate": 0.151
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.52
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.21
+                }
+            ]
+        },
+        {
+            "billing_date": "7/13/05",
+            "days": 31,
+            "total": 92.79,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 171,
+                    "rate": 0.151
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.16
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.19
+                }
+            ]
+        },
+        {
+            "billing_date": "8/11/05",
+            "days": 30,
+            "total": 182.57,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 404,
+                    "rate": 0.1683
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.35
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.31
+                }
+            ]
+        },
+        {
+            "billing_date": "9/12/05",
+            "days": 30,
+            "total": 133.69,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 121,
+                    "rate": 0.1683
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.16 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.25
+                }
+            ]
+        },
+        {
+            "billing_date": "10/11/05",
+            "days": 30,
+            "total": 82.41,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 104,
+                    "rate": 0.151
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":  0.91
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.18
+                }
+            ]
+        },
+        {
+            "billing_date": "11/09/05",
+            "days": 29,
+            "total": 88.61,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 579,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 120,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 107,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 35,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 4,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":  1.06
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.19
+                }
+            ]
+        },
+        {
+            "billing_date": "12/12/05",
+            "days": 33,
+            "total": 152.75,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 432,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":  2.62
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.28
+                }
+            ]
+        },
+
+
+
+
+        {
+            "billing_date": "1/12/06",
+            "days": 32,
+            "total": 157.16,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 460,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":  2.73
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.28
+                }
+            ]
+        },
+        {
+            "billing_date": "2/13/06",
+            "days": 30,
+            "total": 111.73,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 172,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":  1.62
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.22
+                }
+            ]
+        },
+        {
+            "billing_date": "3/15/06",
+            "days": 31,
+            "total": 108.26,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 150,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":  1.54
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.21
+                }
+            ]
+        },
+        {
+            "billing_date": "4/13/06",
+            "days": 30,
+            "total": 105.57,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 133,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":  1.47
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.21
+                }
+            ]
+        },
+        {
+            "billing_date": "5/12/06",
+            "days": 29,
+            "total": 85.05,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 428,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 141,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 217,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 40,
+                    "rate": 0.151
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":  0.97
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.18
+                }
+            ]
+        },
+        {
+            "billing_date": "6/13/06",
+            "days": 31,
+            "total": 117.45,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 27,
+                    "rate": 0.1683
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.76 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.23
+                }
+            ]
+        },
+        {
+            "billing_date": "7/13/06",
+            "days": 31,
+            "total": 127.81,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 87,
+                    "rate": 0.1683
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.01
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.24
+                }
+            ]
+        },
+        {
+            "billing_date": "8/11/06",
+            "days": 29,
+            "total": 173.25,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 350,
+                    "rate": 0.1683
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.12
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.30
+                }
+            ]
+        },
+        {
+            "billing_date": "9/12/06",
+            "days": 30,
+            "total": 100.85,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 223,
+                    "rate": 0.151
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.36
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.20
+                }
+            ]
+        },
+        {
+            "billing_date": "10/11/06",
+            "days": 29,
+            "total": 98.38,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 207,
+                    "rate": 0.151
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.30
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.20
+                }
+            ]
+        },
+        {
+            "billing_date": "11/09/06",
+            "days": 31,
+            "total": 94.60,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 565,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 147,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 120,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 40,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 12,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.21
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.19
+                }
+            ]
+        },
+        {
+            "billing_date": "12/12/06",
+            "days": 32,
+            "total": 124.67,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 254,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.94
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.24
+                }
+            ]
+        },
+        {
+            "billing_date": "1/12/07",
+            "days": 32,
+            "total": 166.79,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 521,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.96
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.30
+                }
+            ]
+        },
+        {
+            "billing_date": "2/13/07",
+            "days": 31,
+            "total": 121.66,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 235,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.86
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.23
+                }
+            ]
+        },
+        {
+            "billing_date": "3/15/07",
+            "days": 32,
+            "total": 111.26,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 169,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.61
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.22
+                }
+            ]
+        },
+        {
+            "billing_date": "4/13/07",
+            "days": 28,
+            "total": 86.17,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 10,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.00
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.18
+                }
+            ]
+        },
+        {
+            "billing_date": "5/13/07",
+            "days": 29,
+            "total": 84.31,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 217,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 35,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 428,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 138,
+                    "rate": 0.1413
+                }
+                
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 0.95
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.18
+                }
+            ]
+        },
+        {
+            "billing_date": "6/13/07",
+            "days": 31,
+            "total": 100.54,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 221,
+                    "rate": 0.151
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.35
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.20
+                }
+            ]
+        },
+        {
+            "billing_date": "7/13/07",
+            "days": 32,
+            "total": 170.47,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 334,
+                    "rate": 0.1683
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.05
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.29
+                }
+            ]
+        },
+        {
+            "billing_date": "8/13/07",
+            "days": 29,
+            "total": 117.63,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 28,
+                    "rate": 0.1683
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.77
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.23
+                }
+            ]
+        },
+        {
+            "billing_date": "9/12/07",
+            "days": 30,
+            "total": 168.23,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 321,
+                    "rate": 0.1683
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.0
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.29
+                }
+            ]
+        },
+        {
+            "billing_date": "10/11/07",
+            "days": 30,
+            "total": 104.58,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 247,
+                    "rate": 0.151
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.45
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.21
+                }
+            ]
+        },
+        {
+            "billing_date": "11/09/07",
+            "days": 29,
+            "total": 106.94,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 555,
+                    "rate": 0.0866
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 208,
+                    "rate": 0.151
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 128,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 43,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 29,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.51
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.21
+                }
+            ]
+        },
+        {
+            "billing_date": "12/12/07",
+            "days": 31,
+            "total": 286.05,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1413
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 1277,
+                    "rate": 0.1537
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 5.87
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.46
+                }
+            ]
+        },
+        
+
+
+
+        {
+            "billing_date": "1/14/08",
+            "days": 33,
+            "total": 32.47,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 243,
+                    "rate": 0.0798
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 92,
+                    "rate": 0.0861
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 92,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.07
+                }
+            ]
+        },
+        {
+            "billing_date": "2/13/08",
+            "days": 31,
+            "total": 130.42,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0861
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1476
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 240,
+                    "rate": 0.16
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1065,
+                    "rate": 0.001
+                }
+
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.08
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.23
+                }
+            ]
+        },
+        {
+            "billing_date": "3/14/08",
+            "days": 31,
+            "total": 109.11,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0861
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1476
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 111,
+                    "rate": 0.16
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 936,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.56
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.21
+                }
+            ]
+        },
+        {
+            "billing_date": "4/14/08",
+            "days": 30,
+            "total": 99.19,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0861
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1476
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 51,
+                    "rate": 0.16
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 876,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.32
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.19
+                }
+            ]
+        },
+        {
+            "billing_date": "5/13/08",
+            "days": 30,
+            "total": 95.76,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 233,
+                    "rate": 0.0929
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 52,
+                    "rate": 0.1573
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 413,
+                    "rate": 0.0861
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 137,
+                    "rate": 0.1476
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 18,
+                    "rate": 0.16
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 853,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5.0
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.23
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.19
+                }
+            ]
+        },
+        {
+            "billing_date": "6/12/08",
+            "days": 30,
+            "total": 131.26,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0929
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.1573
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 61,
+                    "rate": 0.1746
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1061,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.10
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.23
+                }
+            ]
+        },
+        {
+            "billing_date": "7/14/08",
+            "days": 30,
+            "total": 158.66,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0929
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.1573
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 213,
+                    "rate": 0.1746
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1213,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.77
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.27
+                }
+            ]
+        },
+        {
+            "billing_date": "8/12/08",
+            "days": 30,
+            "total": 162.44,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0929
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.1573
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 234,
+                    "rate": 0.1746
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1234,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.86
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.27
+                }
+            ]
+        },
+        {
+            "billing_date": "9/11/08",
+            "days": 31,
+            "total": 235.96,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0929
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.1573
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 642,
+                    "rate": 0.1746
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1642,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 4.65
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.36
+                }
+            ]
+        },
+        {
+            "billing_date": "10/10/08",
+            "days": 29,
+            "total": 133.43,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.0929
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 300,
+                    "rate": 0.1573
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "summer",
+                    "usage": 73,
+                    "rate": 0.1746
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1073,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total":2.15 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.24
+                }
+            ]
+        },
+        {
+            "billing_date": "11/10/08",
+            "days": 29,
+            "total": 120.19,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 579,
+                    "rate": 0.0929
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 248,
+                    "rate": 0.1573
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 107,
+                    "rate": 0.0861
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 35,
+                    "rate": 0.1476
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 31,
+                    "rate": 0.16
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1000,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.83
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.22
+                }
+            ]
+        },
+        {
+            "billing_date": "12/10/08",
+            "days": 34,
+            "total": 158.68,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0861
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205,
+                    "rate": 0.1476
+                },
+                {
+                    "tier": "tier_3",
+                    "type": "winter",
+                    "usage": 411,
+                    "rate": 0.16
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1236,
+                    "rate": 0.001
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 5
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.77 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.27
+                }
+            ]
+        },
+        {
+            "billing_date": "1/13/10",
+            "days": 31,
+            "total": 202.38,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0886
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 826,
+                    "rate": 0.1643
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1026,
+                    "rate": 0.0002
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 420,
+                    "rate": 0.0009
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.83 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.38
+                }
+            ]
+        },
+        {
+            "billing_date": "2/12/10",
+            "days": 31,
+            "total": 162.59,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0886
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 587,
+                    "rate": 0.1643
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1207,
+                    "rate": 0.0009
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.86 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.27
+                }
+            ]
+        },
+        {
+            "billing_date": "3/16/10",
+            "days": 31,
+            "total": 154.50,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 380,
+                    "rate": 0.0886
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 240,
+                    "rate": 0.0946
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 316,
+                    "rate": 0.1643
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 201,
+                    "rate": 0.1755
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1137,
+                    "rate": 0.0009
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.66 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.25
+                }
+            ]
+        },
+        {
+            "billing_date": "4/14/10",
+            "days": 31,
+            "total": 153.05,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0946
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 476,
+                    "rate": 0.1755
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1096,
+                    "rate": 0.0009
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.63 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.24
+                }
+            ]
+        },
+        {
+            "billing_date": "5/13/10",
+            "days": 29,
+            "total": 148.79,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 385,
+                    "rate": 0.0946
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 266,
+                    "rate": 0.1022
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 279,
+                    "rate": 0.1755
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 140,
+                    "rate": 0.1818
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1070,
+                    "rate": 0.0009
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1070,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.53 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.24
+                }
+            ]
+        },
+        {
+            "billing_date": "7/14/10",
+            "days": 29,
+            "total": 206.80,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1022
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 675,
+                    "rate": 0.1818
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1375,
+                    "rate": 0.0009
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1375,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.94
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.30
+                }
+            ]
+        },
+        {
+            "billing_date": "8/12/10",
+            "days": 31,
+            "total": 199.66,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1022
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 637,
+                    "rate": 0.1818
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1337,
+                    "rate": 0.0009
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1337,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.77
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.29
+                }
+            ]
+        },
+        {
+            "billing_date": "9/13/10",
+            "days": 31,
+            "total": 214.11,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1022
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 714,
+                    "rate": 0.1818
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1414,
+                    "rate": 0.0009
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1414,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total": 4.12 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.31
+                }
+            ]
+        },
+        {
+            "billing_date": "10/12/10",
+            "days": 29,
+            "total": 166.28,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1022
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 459, 
+                    "rate": 0.1818
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1159,
+                    "rate": 0.0009
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1159,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total":  2.95
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.25
+                }
+            ]
+        },
+        {
+            "billing_date": "11/10/10",
+            "days": 29,
+            "total": 155.06,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 519,
+                    "rate": 0.1022
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 295, 
+                    "rate": 0.1818
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 160,
+                    "rate": 0.0946
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 125, 
+                    "rate": 0.1755
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1101,
+                    "rate": 0.0009
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1101,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total":  2.68
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.24
+                }
+            ]
+        },
+        {
+            "billing_date": "12/13/10",
+            "days": 31,
+            "total": 157.25,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0946
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 499, 
+                    "rate": 0.1755
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1119,
+                    "rate": 0.0009
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1119,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7
+                },
+                {
+                    "type": "County Tax",
+                    "total":  2.73
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.25
+                }
+            ]
+        },
+        {
+            "billing_date": "1/13/11",
+            "days": 32,
+            "total": 187.29,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 426,
+                    "rate": 0.0946
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 194,
+                    "rate": 0.0967
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 451, 
+                    "rate": 0.1755
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 205, 
+                    "rate": 0.1794
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 887,
+                    "rate": 0.0009
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 399,
+                    "rate": 0.0013
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1276,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total":  3.46
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.28
+                }
+            ]
+        },
+        {
+            "billing_date": "2/14/11",
+            "days": 31,
+            "total": 182.47,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0967
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 613, 
+                    "rate": 0.1794
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1233,
+                    "rate": 0.0013
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1233,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total":  3.34
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.36
+                }
+            ]
+        },
+        {
+            "billing_date": "3/16/11",
+            "days": 32,
+            "total": 141.47,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0967
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 392, 
+                    "rate": 0.1794
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1012,
+                    "rate": 0.0013
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 1012,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.35 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.29
+                }
+            ]
+        },
+        {
+            "billing_date": "4/14/11",
+            "days": 32,
+            "total": 131.07,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0967
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 336, 
+                    "rate": 0.1794
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 956,
+                    "rate": 0.0013
+                },
+                {
+                    "type": "Hydro Generation Adjustment",
+                    "usage": 857,
+                    "rate": 0.00004
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.09 
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.28
+                }
+            ]
+        },
+        {
+            "billing_date": "5/13/11",
+            "days": 28,
+            "total": 125.94,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 399,
+                    "rate": 0.0967
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 197, 
+                    "rate": 0.1794
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 250,
+                    "rate": 0.1045
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 82, 
+                    "rate": 0.1859
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 928,
+                    "rate": 0.0013
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 1.97
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.27
+                }
+            ]
+        },
+        {
+            "billing_date": "6/13/11",
+            "days": 34,
+            "total": 172.50,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1045
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 469, 
+                    "rate": 0.1859
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1169,
+                    "rate": 0.0013
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.10
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.34
+                }
+            ]
+        },
+        {
+            "billing_date": "7/13/11",
+            "days": 30,
+            "total": 223.23,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1045
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 733, 
+                    "rate": 0.1859
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1433,
+                    "rate": 0.0013
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 4.34
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.42
+                }
+            ]
+        },
+        {
+            "billing_date": "8/13/11",
+            "days": 29,
+            "total": 173.47,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1045
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 474, 
+                    "rate": 0.1859
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1174,
+                    "rate": 0.0013
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.13
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.34
+                }
+            ]
+        },
+        {
+            "billing_date": "9/13/11",
+            "days": 29,
+            "total": 201.52,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1045
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 620, 
+                    "rate": 0.1859
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1320,
+                    "rate": 0.0013
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.81
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.38
+                }
+            ]
+        },
+        {
+            "billing_date": "10/12/11",
+            "days": 31,
+            "total": 188.83,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 700,
+                    "rate": 0.1045
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 554, 
+                    "rate": 0.1859
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1254,
+                    "rate": 0.0013
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.50
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.36
+                }
+            ]
+        },
+        {
+            "billing_date": "11/10/11",
+            "days": 29,
+            "total": 151.21,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "summer",
+                    "usage": 507,
+                    "rate": 0.1045
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "summer",
+                    "usage": 260, 
+                    "rate": 0.1859
+                },
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 171,
+                    "rate": 0.0967
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 122, 
+                    "rate": 0.1794
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1060,
+                    "rate": 0.0013
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 2.58
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.31
+                }
+            ]
+        },
+        {
+            "billing_date": "12/13/11",
+            "days": 31,
+            "total": 175.20,
+            "rates": [
+                {
+                    "tier": "tier_1",
+                    "type": "winter",
+                    "usage": 620,
+                    "rate": 0.0967
+                },
+                {
+                    "tier": "tier_2",
+                    "type": "winter",
+                    "usage": 574, 
+                    "rate": 0.1794
+                },
+                {
+                    "type": "Solar Surcharge",
+                    "usage": 1194, 
+                    "rate": 0.0013
+                }
+            ],
+            "flat_charges": [
+                {
+                    "type": "Service Charge",
+                    "total": 7.20
+                },
+                {
+                    "type": "County Tax",
+                    "total": 3.17
+                },
+                {
+                    "type": "State Surcharge",
+                    "total": 0.35
+                }
+            ]
+        }
+    ]
+}

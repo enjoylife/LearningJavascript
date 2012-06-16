@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script type="text/javascript" src="../d3/d3.v2.js"></script>
+<script type="text/javascript" src="digits.js"></script>
+<style>
+</style>
+<body>
+    <script type="text/javascript">
+
+function countDown(selection, starting_symbol) {
+        
+    // intial default settings 
+    var margin = {top: 40, right: 40, bottom: 40, left: 40},
+
+    //matrix properties
+    matrix_distance = 30,
+
+    // symbol properties
+    block_size = 10,
+    negative_space = 5,
+    step = block_size+negative_space,
+
+    // transition properties
+    enter_transition_speed = 300,
+    exit_transition_speed = 300,
+    pause_between = 500
+
+    width = 1000,// * step * 10, // leave enough room for larger
+    height = step * 14; // guesstimate mostly
+    
+    // Setup of the  container
+    var svg = d3.select(selection).append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("class", "countdown")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+        .append("g")
+            .attr("class", "countdown");
+
+function matrix_transition(selection){
+    console.log("matrix Transition");
+    //  we have whole new matrix to deal with
+    selection.enter().append("g").attr("class","matrix")
+    // slide the matrices into their spots
+    .attr("transform",function(d,i){
+        return "translate(" + (i * matrix_distance * step) + "," + 0 + ")";});
+    // old trash of a matrix, just dispose quickly 
+    selection.exit().remove();
+    // same old same old
+    // pass
+    svg.selectAll(".matrix").call(grid_transition);
+}
+
+function grid_transition(selection) {
+    var grid_rows, grid_cols, matrix;
+
+    /*** when the symbols are first entering the visual 
+     ***/
+    console.log("transiton number [1]");
+
+    grid_rows = selection.selectAll(".grid_row").data(function(d){return d;});
+
+    // lets update those rows
+    grid_rows.enter().append("g")
+        .attr("class","grid_row")
+        .attr("transform",function(d,i){  // middle  
+                return "translate(" + 0 + "," +(step*d.length/2) + ")";})
+
+    // old just remove
+    grid_rows.exit().remove();
+
+    // any current
+    grid_rows.attr("transform",function(d,i){  // middle  
+                return "translate(" + 0 + "," +(step*d.length/2) + ")";});
+
+    // now bring in the cols
+    
+    grid_cols = grid_rows.selectAll("rect").data(function(d){return d;});
+
+    // current
+    grid_cols // don't want to see them
+        .attr("width",function(d){return 0;})
+        .attr("height",function(d){return 0;})
+        // middle of cols
+        .attr("x",function(d,i){return step*6/2;});
+
+    grid_cols.enter().append("rect")  // update the cols
+        .attr("class", "grid_col")
+        // don't want to see them
+        .attr("width",function(d){return 0;})
+        .attr("height",function(d){return 0;})
+        // middle of cols
+        .attr("x",function(d,i){return step*3;});
+
+    grid_cols.exit().remove()
+
+    /*** Now we want to start seeing the symbols, transition them in
+     ***/
+    console.log("transiton number [2]");
+
+    grid_rows = selection.selectAll(".grid_row");
+    grid_rows.transition().duration(enter_transition_speed)
+        .attr("transform",function(d,i){return "translate(" + 0 + "," + (step * i) + ")";});
+    grid_cols = grid_rows.selectAll("rect");
+    grid_cols.transition().duration(enter_transition_speed)
+    .attr("x",function(d,i){return i*step;})
+        .attr("width",function(d){return d ? block_size : 0 ;})
+        .attr("height",function(d){return d ? block_size : 0 ;});
+
+
+    /*** The symbol usefullness is over, transition them out
+    ***/
+    selection.selectAll(".grid_row")
+        .transition().duration(exit_transition_speed).delay(pause_between)
+        .attr("transform",function(d,i){
+                return "translate(" + 0 + "," +(step*d.length/2) + ")";});
+    selection.selectAll(".grid_col")
+        .transition().duration(exit_transition_speed).delay(pause_between)
+        .attr("x",function(d,i){return step*6/3;})
+        .attr("width",function(d){return 0;})
+        .attr("height",function(d){return 0;});
+}
+
+    // want to repeat 
+    setInterval(function() {
+        var grid_rows, grid_cols, matrix;
+ 
+           if(starting_symbol >= 0){
+                console.log(matrix);
+                //svg.selectAll(".matrix").remove() without this, ruins performance, but with it 
+                // it's a serious bug, todo: fix
+                matrix = svg.selectAll(".matrix").data(function(d,i){return block_digit(starting_symbol)});
+                console.log(matrix);
+                //current
+                matrix.attr("transform",function(d,i){ // slide the matrices into their spots
+                    return "translate(" +((i* step* d[0].length)) + "," + 0 + ")";});
+
+                matrix.enter().append("g").attr("class","matrix")
+                .attr("transform",function(d,i){ // slide the matrices into their spots
+                    return "translate(" +((i* step * d[0].length)) + "," + 0 + ")";});
+                // old trash of a matrix, just dispose quickly 
+                matrix.exit().remove();
+                // same old same old
+                // pass
+                matrix = svg.selectAll(".matrix")
+                matrix.call(grid_transition);
+
+                starting_symbol--;
+          }
+    //  give enough time for all transitions to complete
+    },enter_transition_speed+exit_transition_speed+pause_between);
+}
+
+// Heres how to use it 
+clearInterval(countDown("body",10));
+    </script>
+</body>
