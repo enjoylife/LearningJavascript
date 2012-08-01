@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="../../d3.v2.js"></script>
+<style>
+svg {
+  font: 10px sans-serif;
+
+  shape-rendering: crispEdges;
+}
+body {
+  font: 10px sans-serif;
+}
+
+line, path {
+  fill: none;
+  stroke: #000;
+}
+
+</style>
+</head>
+<body>
+    <div id="graph" class="visualization"></div>
+    <script type="text/javascript">
+
+        var margin = {top:30, right: 30, bottom: 30, left: 30},
+            width = 500 - margin.right - margin.left,
+            height = 80 - margin.top - margin.bottom;
+
+        var t_scale = d3.time.scale().domain([new Date(2012,0,1), new Date()])
+                .rangeRound([0, width]).nice(d3.time.month);
+
+
+        var y = d3.scale.linear() .range([0, height]);
+
+        var x_axis = d3.svg.gridAxis().scale(t_scale)
+            .ticks(d3.time.months,1).tickFormat(d3.time.format("%b %y"))
+            .tickSize(6,6);
+
+        var svg = d3.select("body").append("svg")
+            .attr("width", width + margin.right + margin.left)
+            .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        svg.append("g")
+            .attr("class", "xaxis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(x_axis);
+
+        changetime = function (a,b){
+            t_scale.domain([a,b])
+            var t = svg.transition().duration(750);
+            t.select(".xaxis").call(x_axis);
+        }
+
+        function d3_time_scaleExtent(domain) {
+          var start = domain[0], stop = domain[domain.length - 1];
+          return start < stop ? [start, stop] : [stop, start];
+        }
+            
+    </script>
+</body>
