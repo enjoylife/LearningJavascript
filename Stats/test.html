@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<script type="text/javascript" src="../d3/d3.v2.js"></script>
+<script type="text/javascript" src="../../d3.v2.js"></script>
 <link type="text/css" rel="stylesheet" href="box.css"/>
 <style>
 html {
@@ -11,14 +11,15 @@ body {
   position: relative;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   margin: 1em auto 4em auto;
-  width: 960px;
 }
 
 svg {
   font: 10px sans-serif;
 
 }
-
+.visualization {
+    height:500px;
+}
 .data_select {
     opacity:0.0,
 }
@@ -27,40 +28,36 @@ svg {
   stroke-width: 1.5px;
 }
 .axis path, .axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
+    fill: none;
+    stroke: #B6B6B6;
+    shape-rendering: crispEdges;
+    opacity:1;
 }
 
 .line {
   fill: none;
-  stroke: #000;
   stroke-width: 2px;
 }
 
 .xline {
   fill: none;
-  stroke: #000;
   stroke-width: .1px;
 }
 
 .yline {
   fill: none;
-  stroke: #000;
   stroke-width: 1px;
 }
 
 
 .grid {
-    stroke: #000;
     stroke-width: 1px;
-    opacity:.1;
+    opacity:1;
 }
-
-
 
 </style>
 <body>
-    <script type="text/javascript" src="demo_stats.js"></script>
+    <div id="creator" class="visualization"></div>
+    <script type="text/javascript" src="data_creator.js"></script>
 </body>
 

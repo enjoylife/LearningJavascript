@@ -16,11 +16,11 @@ d3.json("smud.json", function(json) {
     var data = [];
     var format = d3.time.format("%x");
     var recorded_years = {};
-    var bills = json["smud_bills"]; 
+    var bills = json.smud_bills; 
 
     bills.forEach(function(bill){
         var sum = 0;
-        var year = format.parse(bill['billing_date']).getFullYear();
+        var year = format.parse(bill.billing_date).getFullYear();
         // we already have an array set up
         if (recorded_years[year]){
             console.log("old yeaer");
@@ -29,8 +29,8 @@ d3.json("smud.json", function(json) {
             recorded_years[year] = [];
         }
 
-        for(var i = 0, len = bill["rates"].length; i < len; i++) {
-            sum += bill["rates"][i]["rate"].toFixed(2) * bill["rates"][i]["usage"].toFixed(2);
+        for(var i = 0, len = bill.rates.length; i < len; i++) {
+            sum += bill.rates[i].rate.toFixed(2) * bill.rates[i].usage.toFixed(2);
 
         }
         for(var i = 0, len = bill["flat_charges"].length; i < len; i++) {
